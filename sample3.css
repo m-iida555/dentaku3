@@ -1,0 +1,27 @@
+#input1{
+  width: 510px;
+  height: 35px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+}
+
+.content{
+  width: 125px;
+  height: 35px;
+  background-color: #bfbfbf;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.content2{
+  width: 256px;
+  height: 35px;
+  background-color: #bfbfbf;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 30px;
+
+}

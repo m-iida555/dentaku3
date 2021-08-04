@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="sample3.css">
+        <title>電卓</title>
+      </head>
+      
+      <body>
+        <table>  
+
+          <tr><td><input type=text id=input1 style="text-align:right"></td></tr>
+          <tr><td><input type=button class="content" value="7" onclick=num("7")>
+          <input type=button class="content" value="8" onclick=num("8")>
+          <input type=button class="content" value="9" onclick=num("9")>
+          <input type=button class="content" value="+" onclick=calc("+")></td></tr>
+          <tr><td><input type=button class="content" value="4" onclick=num("4")>
+          <input type=button class="content" value="5" onclick=num("5")>
+          <input type=button class="content" value="6" onclick=num("6")>
+          <input type=button class="content" value="-" onclick=calc("-")></td></tr>
+          <tr><td><input type=button class="content" value="1" onclick=num("1")>
+          <input type=button class="content" value="2" onclick=num("2")>
+          <input type=button class="content" value="3" onclick=num("3")>
+          <input type=button class="content" value="×" onclick=calc("×")></td></tr>
+          <tr><td><input type=button class="content" value="0" onclick=num("0")>
+          <input type=button class="content" value="00" onclick=num("00")>
+          <input type=button class="content" value="." onclick=num(".")>
+          <input type=button class="content" value="÷" onclick=calc("÷")></td></tr>
+          
+          <tr><td><input type=button class="content2" value="AC" onclick="reset()">
+          <input type=button class="content2" value="=" onclick=equal()></td></tr>
+      
+        </table> 
+       
+       
+        <script src="sample3.js"></script>
+      </body>
+    </html>
